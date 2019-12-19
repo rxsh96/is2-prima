@@ -37,6 +37,8 @@ public class App {
 		scan.close();
 		  
 		mainPrimaValue(edad, puntosLicencia);
+		
+		//This comment is just for test Jenkins CI
 	}
 	
 	/**
