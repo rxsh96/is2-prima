@@ -55,7 +55,7 @@ public class InsuranceCarrier {
 		else if(ageFactor == 1.8) return 3;
 		else if(ageFactor == 1.0) return 5;
 		else if(ageFactor == 0.8) return 7;
-		else if(ageFactor == 1.5) return 5;
+		else if(ageFactor == 1.5) return 4;
 		else return 0;
 	}
 	
