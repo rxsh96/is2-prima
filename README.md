@@ -1,1 +1,3 @@
-"# is2-prima" 
+# Prima Calculator
+
+## Calculate the prima value
