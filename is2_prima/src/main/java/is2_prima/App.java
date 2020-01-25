@@ -20,7 +20,7 @@ public class App {
 		System.out.println("Ingrese edad del conductor: ");
 		  
 		while (!scan.hasNextInt()) {
-			System.out.println("¡Ingrese valores numéricos solamente!");
+			System.out.println("ï¿½Ingrese valores numï¿½ricos solamente!");
 			System.out.println("Ingrese edad del conductor: "); 
 			scan.next(); 
 		} 
@@ -28,7 +28,7 @@ public class App {
 		  
 		System.out.println("Ingrese puntos de licencia del coductor: ");
 		while (!scan.hasNextInt()) {
-			System.out.println("¡Ingrese valores numéricos solamente!");
+			System.out.println("ï¿½Ingrese valores numï¿½ricos solamente!");
 			System.out.println("Ingrese puntos de licencia del coductor: "); 
 			scan.next();
 		} 
@@ -60,12 +60,12 @@ public class App {
 		int reduccionConductorSeguro = InsuranceCarrier.safeDriverReduction(driver);
 		
 		if (reduccionConductorSeguro == -1) {
-			System.out.println("¡Sin Puntos de Licencia!");
+			System.out.println("Â¡Sin Puntos de Licencia!");
 			return 0;
 		}
 		
 		if (reduccionConductorSeguro == 1) {
-			System.out.println("Puntos de Licencia Inválidos");
+			System.out.println("Puntos de Licencia InvÃ¡lidos");
 			return 0; 
 		}
 		
