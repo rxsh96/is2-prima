@@ -37,6 +37,7 @@ public class App {
 		scan.close();
 		  
 		mainPrimaValue(edad, puntosLicencia);
+		System.out.println("¡Gracias por utilizar nuestro servicio!");
 		
 		//This comment is just for test Jenkins CI
 		//TEST #2 FOR JENKINS
@@ -74,6 +75,7 @@ public class App {
 		
 		System.out.println("El valor calculado es: $" + primaPagar);
 		return primaPagar;
+		
 	}
 
 }
